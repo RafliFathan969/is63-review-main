@@ -50,7 +50,7 @@
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-                <form method="POST" action="{{ route('logout') }}">
+                <form method="POST" action="#">
                     @csrf
                     <button type="submit" class="btn btn-primary">
                         <i class="fas fa-sign-out-alt mr-1"></i> Logout

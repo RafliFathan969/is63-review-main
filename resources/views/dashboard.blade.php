@@ -1,5 +1,5 @@
 {{-- resources/views/dashboard.blade.php --}}
-@extends('layouts.app')
+@extends('layout.app')
 
 @section('title', 'Dashboard')
 @section('page-title', 'Dashboard')
@@ -80,7 +80,7 @@
             <h6 class="m-0 font-weight-bold text-primary">
                 <i class="fas fa-users mr-2"></i>Mahasiswa Terbaru
             </h6>
-            <a href="{{ route('mahasiswa.index') }}" class="btn btn-sm btn-primary">
+            <a href="#" class="btn btn-sm btn-primary">
                 Lihat Semua
             </a>
         </div>
